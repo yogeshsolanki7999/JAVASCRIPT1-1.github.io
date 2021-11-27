@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fibo.css">
+</head>
+<body>
+<h1>ASSIGNMENT NUMBER 1 </h1>
+<div>
+    <Script>
+        //Question 1 => FIND THE FIBONACCI SERIES UPTO N.
+        
+
+        var a=0,b=1,c=0;
+        
+        var N=prompt("ENTER THE VALUE OF N");
+
+        var i=0;
+        document.write("YOUR FIBONACCI SERIES UPTO  "+N+" IS  -:");
+        document.write("<br/>")
+        document.write("0");
+        document.write("<br/>")
+        while(i<=N){
+            a=b;
+            b=c;
+            c=a+b;
+            document.write(c);
+            document.write("<br/>")
+            i++;
+        }
+        
+
+    </Script>
+    </div>
+</body>
+</html>
